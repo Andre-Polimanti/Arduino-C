@@ -1,46 +1,46 @@
 // Pin initialization
-const int pino_buzzer = 13;
+const int BUZZER_PIN = 13;
 
 // Timer initialization
-const long timer = 1000;
+const long TIMER = 1000;
 
 // Frequencies initialization
-const int c = 261; // Dó
-const int d = 293; // Ré
-const int e = 329; // Mi
-const int f = 349; // Fá
-const int g = 391; // Sol
-const int a = 440; // Lá
-const int b = 493; // Si
+const int C = 261; // Dó
+const int D = 293; // Ré
+const int E = 329; // Mi
+const int F = 349; // Fá
+const int G = 391; // Sol
+const int A = 440; // Lá
+const int B = 493; // Si
 // The notes are defined in the alphabetic sistem, for silabic sistem look above for the comments sided with each one of them
 
 void setup(){
   // Pin configuration
-  pinMode(pino_buzzer, OUTPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
 }
 
 void loop(){
-  tone(pino_buzzer, c);
-  delay(timer);
+  tone(BUZZER_PIN, C);
+  delay(TIMER);
 
-  tone(pino_buzzer, d);
-  delay(timer);
+  tone(BUZZER_PIN, D);
+  delay(TIMER);
   
-  tone(pino_buzzer, e);
-  delay(timer);
+  tone(BUZZER_PIN, E);
+  delay(TIMER);
   
-  tone(pino_buzzer, f);
-  delay(timer);
+  tone(BUZZER_PIN, F);
+  delay(TIMER);
 
-  tone(pino_buzzer, g);
-  delay(timer);
+  tone(BUZZER_PIN, G);
+  delay(TIMER);
 
-  tone(pino_buzzer, a);
-  delay(timer);
+  tone(BUZZER_PIN, A);
+  delay(TIMER);
   
-  tone(pino_buzzer, b);
-  delay(timer);
+  tone(BUZZER_PIN, B);
+  delay(TIMER);
 
-  noTone(pino_buzzer); // Small break
-  delay(timer * 4); 
+  noTone(BUZZER_PIN); // Small break
+  delay(TIMER * 3); 
 }
