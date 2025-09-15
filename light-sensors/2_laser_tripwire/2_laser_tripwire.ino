@@ -1,4 +1,4 @@
-// In this project, we will use a LDR, associated with a voltage divider to be able to measure the intensity of ambient light.
+// In this project, we will use a LDR, associated with a voltage divider and a laser to be able to know if there is an obstacle between the laser and the LDR.
 
 // Pin initialization
 const int LDR_PIN = A0;
