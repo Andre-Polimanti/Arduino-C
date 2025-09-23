@@ -49,7 +49,6 @@ RGB getReading() { // setting values of each color sccording to the buttons pres
   return val;
 }
 
-
 // This function implements a "latching" behavior: colors are added and accumulated when a button is pressed, only being erased when all buttons are unpressed
 // You can mix colors if you press at least two buttons, and can keep the mixed color while pressing at least one of the involved buttons
 // When Red, Green and Blue are accumulated, according to theory, the color showed is White
