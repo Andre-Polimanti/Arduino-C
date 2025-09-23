@@ -7,7 +7,7 @@ const int RED_BUTTON = 7;
 const int GREEN_BUTTON = 6;
 const int BLUE_BUTTON = 5;
 
-struct RGB { // We are working with a RGB LED, and, as such, it receives 3 int values that represents the intensities of each color
+struct RGB { // We are working with a RGB LED, and as such, it receives 3 int values that represents the intensities of each color
   int r;
   int g;
   int b;
@@ -50,9 +50,9 @@ RGB getReading() { // setting values of each color sccording to the buttons pres
 }
 
 
-// This function implements a "latching" behavior: colors are added and accumulated when a buttonis pressed, only being erased when all buttons are unpressed
+// This function implements a "latching" behavior: colors are added and accumulated when a button is pressed, only being erased when all buttons are unpressed
 // You can mix colors if you press at least two buttons, and can keep the mixed color while pressing at least one of the involved buttons
-// When Red, Green and Blue are accumulated, according to theory the color showed is White
+// When Red, Green and Blue are accumulated, according to theory, the color showed is White
 void updateColoring(RGB val) { // LED control
   if(val.r){
     analogWrite(RED_PIN, 255);
