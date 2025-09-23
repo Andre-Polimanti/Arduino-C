@@ -1,3 +1,4 @@
+// LED pin initialization
 const int RED_PIN = 11;
 const int GREEN_PIN = 10;
 const int BLUE_PIN = 9;
