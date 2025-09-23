@@ -1,5 +1,3 @@
-// This is an improvement of the previous code, with the same eletronic build
-
 // Pin initilization
 const int POTENCIOMETER_PIN = A0;
 const int LED_PIN = 11; // One of the pins that are compatible with pwm
