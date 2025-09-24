@@ -15,7 +15,7 @@ void setup() {
 void loop() {
   reading = analogRead(POTENCIOMETER_PIN);
   
-  // converts the data of 8 bits to 6
+  // converts the data of 10 bits to one of 8
   pwm = map(reading, 0, 1023, 0, 255); 
 
   analogWrite(LED_PIN, pwm);
