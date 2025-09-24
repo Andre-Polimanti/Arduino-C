@@ -58,7 +58,7 @@ void loop() {
   updateLedColoring(ledWriting); // You can add or update a color and it's intesity by adjusting the potenciometer befor pressing the respective button, or turn everything off by pressing the determinated button.
 }
 
-char getButtonReading() { // setting values of each color sccording to the buttons pressed~
+char getButtonReading() { // setting values of each color according to the buttons pressed
   char color = 'stay';
   if (digitalRead(RED_BUTTON) == LOW) {
     color = 'r';
