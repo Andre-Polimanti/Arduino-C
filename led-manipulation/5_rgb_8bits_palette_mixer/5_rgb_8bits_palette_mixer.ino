@@ -59,7 +59,7 @@ void loop() {
 }
 
 char getButtonReading() { // setting values of each color according to the buttons pressed
-  char color = 's';
+  char color = 's'; // stay
   if (digitalRead(RED_BUTTON) == LOW) {
     color = 'r';
   }
