@@ -3,7 +3,7 @@ Projects using Arduino C implemented on my Uno R3 board, ordered by complexity.
 The used language is C++
 
 ## IDE used
-Arduino IDE.
+Arduino IDE
 
 ## Whats is this repository
 This repository represents my learnig process on the basics of microprocessors, familiarization with C++ and it's POO attributes.
