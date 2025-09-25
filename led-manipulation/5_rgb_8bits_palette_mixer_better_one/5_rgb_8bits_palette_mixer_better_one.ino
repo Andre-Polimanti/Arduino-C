@@ -22,7 +22,6 @@ struct RGB { // We are working with a RGB LED, and, as such, it receives 3 int v
 
 	RGB(): r(0), g(0), b(0) {} // Default values
 
-	// Activates a color in a designated intensity
 	void update(char buttonReading, int intensity) { // values control
 		switch(buttonReading){
 		case RED_BUTTON:
@@ -37,7 +36,7 @@ struct RGB { // We are working with a RGB LED, and, as such, it receives 3 int v
 		}
 	}
 
-	void reset() {
+	void reset() { // blackout
 		r = 0;
 		g = 0;
 		b = 0;
